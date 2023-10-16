@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+#pokemonInput {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#infoPokemon {
+    margin-top: 20px;
+}
+
+#infoPokemon h2 {
+    color: #333;
+}
+
+#infoPokemon img {
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+#infoPokemon p {
+    color: #666;
+}
+
+#pokemonList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pokemon-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.pokemon-item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 5px;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pokemon-item {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.pokemon-item img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 5px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tabs button {
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #8fec6a;
+}
+
+.tabs button:hover {
+    background-color: #ddd;
+}
